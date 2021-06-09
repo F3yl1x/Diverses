@@ -88,6 +88,11 @@ std::vector<T> replace(std::vector<T> v,T x,T y)
     return v;
 }
 
+int &zurueck(int &test)
+{
+    return test;
+}
+
 
 
 
@@ -101,23 +106,30 @@ int main(){
     // test.push_back(2);
     // test.push_back(6);
     // std::cout << produkt(test) << std::endl;
-    // std::cout << verdoppeln("Hallo") << std::endl;
-    // std::vector<int> vec1;
-    // vec1.push_back(1);
-    // vec1.push_back(2);
+    // std::cout << verdoppeln("Hallo") << std::endl;´
 
-    // std::vector<int> vec2;
-    // vec2.push_back(3);
-    // vec2.push_back(4);
 
-    // std::vector<int> vec3;
+    std::vector<int> vec1;
+    vec1.push_back(1);
+    vec1.push_back(2);
 
-    // vec3 = vec1 + vec2;
+    std::vector<int> vec2;
+    vec2.push_back(3);
+    vec2.push_back(4);
 
-    // for (int i = 0; i < vec3.size(); i++)
-    // {
-    //     std::cout << vec3[i] << std::endl;
-    // }
+    std::vector<int> vec3;
+
+    vec3 = vec1 + vec2;
+
+    for (int i = 0; i < vec3.size(); i++)
+    {
+        std::cout << vec3[i] << std::endl;
+    }
+
+    int hallo = 1;
+    int teest = zurueck(hallo);
+    std::cout << "Test: " << teest << std::endl;
+
     // int x = 1;
     // while (x != 0) bar(x);
 
@@ -136,12 +148,12 @@ int main(){
     // pf->print ();
     // std::cout << pf ->length () << "\n";
 
-    std::vector<int> vec1 = {1,2,2,4,2,6};
-    std::vector<int> vec2 = replace(vec1,2,10);
-    for (int i = 0; i < vec2.size(); i++)
-    {
-        std::cout<< vec2[i]<< std::endl;
-    }
+    // std::vector<int> vec1 = {1,2,2,4,2,6};
+    // std::vector<int> vec2 = replace(vec1,2,10);
+    // for (int i = 0; i < vec2.size(); i++)
+    // {
+    //     std::cout<< vec2[i]<< std::endl;
+    // }
 
     return 0;
 }
