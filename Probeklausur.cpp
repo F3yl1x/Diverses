@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<cmath>
 
 void func(std::string s){
     int size = s.size();
@@ -142,6 +143,8 @@ int main(){
     {
         std::cout<< vec2[i]<< std::endl;
     }
+
+    std::cout<<sqrt(25)<<std::endl;
 
     return 0;
 }
