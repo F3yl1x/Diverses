@@ -45,5 +45,11 @@
         "streambuf": "cpp",
         "typeinfo": "cpp"
     },
-    "python.pythonPath": "D:\\Programme\\Python\\python.exe"
+    "python.pythonPath": "D:\\Programme\\Python\\python.exe",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ]
 }
