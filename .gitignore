@@ -2,3 +2,4 @@
 *.o
 *.vscode
 .venv/
+c_cpp_properties.json
