@@ -42,9 +42,9 @@ def h5(x, y):
    schildkroete.pendown()
 
 # Verknüpfung herstellen zwischen Tastenereignissen und Handlern
-wn.onkey(h1, "Up")
-wn.onkey(h2, "Left")
-wn.onkey(h3, "Right")
+wn.onkey(h1, "w")
+wn.onkey(h2, "a")
+wn.onkey(h3, "d")
 wn.onkey(h4, "q")
 wn.onclick(h5)  # "onclick" reagiert auf Mausklick
 
