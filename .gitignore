@@ -1,5 +1,4 @@
 *.exe
 *.o
-*.vscode
 .venv/
 .vscode/c_cpp_properties.json
