@@ -22,4 +22,4 @@ class ClimbingStairs:
         return ClimbingStairs.moeglichkeiten
 
 
-print(ClimbingStairs.climbing_stairs(15))
+print(ClimbingStairs.climbing_stairs(35))
