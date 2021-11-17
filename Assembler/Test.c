@@ -3,6 +3,10 @@
 int main() {
     int test = 0;
     test = test + 1;
-    printf("%d",test);
+    for(int i=0;i<5;i++)
+    {
+        printf("Nummer: %d\n",i);
+    }
+    printf("Ende");
     return 0;
 }
